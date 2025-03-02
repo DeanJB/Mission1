@@ -35,6 +35,26 @@ function Nav3() {
                               </div>
                         ))}
                   </div>
+
+                  <div className={styles.navTextRight}>
+                        {["Auctions", "Service & Info"].map((item, index) => (
+                              <div key={index} className={styles.navItem}>
+                                    <h1 onClick={() => handleToggle(item)}>
+                                          {item}
+                                          {openDropdown === item ? (
+                                                <ExpandLessIcon sx={{ fontSize: 12 }} />
+                                          ) : (
+                                                <ExpandMoreIcon sx={{ fontSize: 12 }} />
+                                          )}
+                                    </h1>
+                                    {openDropdown === item && (
+                                          <div className={styles.dropdownMenu}>
+                                                <h2>Dropdown content for {item}</h2>
+                                          </div>
+                                    )}
+                              </div>
+                        ))}
+                  </div>
             </div>
       );
 }
