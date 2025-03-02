@@ -8,6 +8,20 @@
       background-color: rgb(0, 115, 207);
 }
 
+.searchInput {
+      width: 400px;
+      height: 40px;
+      margin-top: 6px;
+}
+
+.searchButton {
+      height: 45px;
+      margin-top: 7px;
+      margin-left: 40px;
+      color: White;
+      background-color: rgb(183, 18, 52);
+}
+
 .navTextLeft {
       display: flex;
       flex-direction: row;
@@ -51,6 +65,13 @@
 }
 
 @media (max-width: 1024px) {
+      .navContainer {
+            flex-direction: column;
+            align-items: center;
+      }
+}
+
+@media (max-width: 600px) {
       .navContainer {
             flex-direction: column;
             align-items: center;
