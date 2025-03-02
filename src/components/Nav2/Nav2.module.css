@@ -51,3 +51,12 @@
 .textHighlight:hover {
       color: #d50000;
 }
+
+@media (max-width: 1024px) {
+      .hamMenu {
+            display: flex;
+      }
+      .navRight {
+            display: none;
+      }
+}

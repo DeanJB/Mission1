@@ -74,9 +74,14 @@
 @media (max-width: 600px) {
       .navContainer {
             flex-direction: column;
+            flex-wrap: wrap;
             align-items: center;
       }
       .searchInput {
             width: 300px;
+            margin-left: 20px;
+      }
+      .searchButton {
+            gap: 0px;
       }
 }
