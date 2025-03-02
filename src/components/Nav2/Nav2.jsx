@@ -3,6 +3,7 @@ import styles from "./Nav2.module.css";
 import PersonIcon from "@mui/icons-material/Person";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import SearchIcon from "@mui/icons-material/Search";
 
 function Nav2() {
       const [isMobile2, setIsMobile2] = useState(false);
@@ -24,6 +25,13 @@ function Nav2() {
                   <div className={styles.navContainer}>
                         <div className={styles.navLeft}>
                               <img src="src\assets\TurnersLogo.jpg"></img>
+                        </div>
+
+                        <div className={styles.hamMuiIcons}>
+                              <LocationOnIcon />
+                              <PersonIcon />
+                              <PhoneIcon />
+                              <SearchIcon />
                         </div>
                         {isMobile2 && (
                               <div
