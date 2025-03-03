@@ -78,9 +78,6 @@ function Nav3() {
                                                 {openDropdown === item && (
                                                       <div className={styles.dropdownMenu}>
                                                             <h2>Dropdown content for {item}</h2>
-                                                            <h2>Dropdown content for {item}</h2>
-                                                            <h2>Dropdown content for {item}</h2>
-                                                            <h2>Dropdown content for {item}</h2>
                                                       </div>
                                                 )}
                                           </div>
