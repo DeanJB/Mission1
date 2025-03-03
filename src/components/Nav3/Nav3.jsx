@@ -54,7 +54,32 @@ function Nav3() {
                                                       {/* dropdown menu for items in array */}
                                                       {openDropdown === item && (
                                                             <div className={styles.dropdownMenu}>
-                                                                  <h2>Dropdown content for {item}</h2>
+                                                                  {item === "How to Buy" && (
+                                                                        <>
+                                                                              <p>View our cars</p>
+                                                                              <p>Ways to Buy</p>
+                                                                              <p>Book a test drive</p>
+                                                                              <p>How to Pay</p>
+                                                                              <p>FAQs about Buying</p>
+                                                                              <p>Turner Live</p>
+                                                                              <p>Website Tools</p>
+                                                                        </>
+                                                                  )}
+                                                                  {/* content for sell your car dropdownMenu */}
+                                                                  {item === "Sell your Car" && (
+                                                                        <>
+                                                                              <p>Ways to sell</p>
+                                                                              <p>Book an appraisal</p>
+                                                                              <p>FAQs about Selling</p>
+                                                                        </>
+                                                                  )}
+                                                                  {item === "Finance & Insurance" && (
+                                                                        <>
+                                                                              <p>Ways to sell</p>
+                                                                              <p>Book an appraisal</p>
+                                                                              <p>FAQs about Selling</p>
+                                                                        </>
+                                                                  )}
                                                             </div>
                                                       )}
                                                 </div>
@@ -74,10 +99,31 @@ function Nav3() {
                                                             <ExpandMoreIcon sx={{ fontSize: 12 }} />
                                                       )}
                                                 </h1>
-                                                {/* dropdown menu for items in array */}
+                                                {/* dropdown menu for items in array above ^^ */}
                                                 {openDropdown === item && (
                                                       <div className={styles.dropdownMenu}>
-                                                            <h2>Dropdown content for {item}</h2>
+                                                            {/* content for auction dropdownMenu */}
+                                                            {item === "Auctions" && (
+                                                                  <>
+                                                                        <p>All car auctions</p>
+                                                                        <p>Whangarei</p>
+                                                                        <p>North West Auckland</p>
+                                                                        <p>Central/South Auckland</p>
+                                                                        <p>Hamilton</p>
+                                                                        <p>Tauranga</p>
+                                                                  </>
+                                                            )}
+                                                            {/* content for service & info dropdownMenu */}
+                                                            {item === "Service & Info" && (
+                                                                  <>
+                                                                        <p>5 Day Moneyback Guarantee</p>
+                                                                        <p>Turner Group Overview</p>
+                                                                        <p>Terms & Conditions</p>
+                                                                        <p>Buyers & sellers fees</p>
+                                                                        <p>Shipping costs</p>
+                                                                        <p>Careers at Turners</p>
+                                                                  </>
+                                                            )}
                                                       </div>
                                                 )}
                                           </div>
