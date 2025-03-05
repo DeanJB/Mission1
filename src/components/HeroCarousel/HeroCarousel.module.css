@@ -1,0 +1,42 @@
+.carouselContainer {
+      width: 1400px;
+      height: 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      border: 1px solid black;
+}
+
+.imageSlide img {
+      position: absolute;
+      width: 1400px;
+      height: 300px;
+      inset: 0;
+      opacity: 0;
+}
+
+.imageSlide {
+      opacity: 1;
+}
+.carouselContainer button {
+      z-index: 0;
+      background: rgba(0, 0, 0, 0.01);
+      color: rgb(0, 115, 207);
+      border: none;
+      box-shadow: white;
+}
+.carouselContainer button:hover,
+.carouselContainer button:focus {
+      background: rgba(0, 0, 0, 0.03);
+      color: rgb(0, 115, 207);
+      transition: ease-in 1s;
+}
+
+@media (max-width: 1024px) {
+      .carouselContainer {
+            display: flex;
+      }
+}
