@@ -15,14 +15,14 @@
       width: 1400px;
       height: 300px;
       inset: 0;
-      opacity: 0;
+      opacity: 1;
 }
 
 .imageSlide {
       opacity: 1;
 }
 .carouselContainer button {
-      z-index: 0;
+      z-index: 1;
       background: rgba(0, 0, 0, 0.01);
       color: rgb(0, 115, 207);
       border: none;
@@ -30,13 +30,65 @@
 }
 .carouselContainer button:hover,
 .carouselContainer button:focus {
-      background: rgba(0, 0, 0, 0.03);
+      background: rgba(255, 255, 255, 0.3);
       color: rgb(0, 115, 207);
-      transition: ease-in 1s;
+      transition: ease-in 0.3s;
 }
 
+@media (max-width: 1440px) {
+      .carouselContainer {
+            display: flex;
+            width: 1000px;
+            height: 180px;
+      }
+      .imageSlide img {
+            position: absolute;
+            width: 1000px;
+            height: 180px;
+            inset: 0;
+            opacity: 1;
+      }
+}
 @media (max-width: 1024px) {
       .carouselContainer {
             display: flex;
+            width: 800px;
+            height: 170px;
+      }
+      .imageSlide img {
+            position: absolute;
+            width: 800px;
+            height: 170px;
+            inset: 0;
+            opacity: 1;
+      }
+}
+@media (max-width: 846px) {
+      .carouselContainer {
+            display: flex;
+            width: 600px;
+            height: 170px;
+      }
+      .imageSlide img {
+            position: absolute;
+            width: 600px;
+            height: 170px;
+            inset: 0;
+            opacity: 1;
+      }
+}
+
+@media (max-width: 600px) {
+      .carouselContainer {
+            display: flex;
+            width: 500px;
+            height: 160px;
+      }
+      .imageSlide img {
+            position: absolute;
+            width: 500px;
+            height: 160px;
+            inset: 0;
+            opacity: 1;
       }
 }

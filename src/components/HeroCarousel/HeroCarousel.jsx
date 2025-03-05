@@ -14,12 +14,8 @@ function HeroCarousel() {
                   <div className={styles.imageSlide}>
                         <img src="src\assets\test.jpg"></img>
                   </div>
-                  <div className={styles.imageSlide}>
-                        <img src="src\assets\test2.jpg"></img>
-                  </div>
-                  <div className={styles.imageSlide}>
-                        <img src="src\assets\test3.jpg"></img>
-                  </div>
+                  <div className={styles.imageSlide}>{/* <img src="src\assets\test2.jpg"></img> */}</div>
+                  <div className={styles.imageSlide}>{/* <img src="src\assets\test3.jpg"></img> */}</div>
 
                   <button>
                         <ArrowForwardIosOutlinedIcon />
