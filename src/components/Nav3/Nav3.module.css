@@ -10,15 +10,19 @@
 
 .searchInput {
       width: 400px;
-      height: 30px;
-      margin-bottom: 20px;
+      height: 36px;
+      margin-bottom: 0px;
+      border-radius: 10px;
 }
 
 .searchButton {
-      height: 40px;
+      height: 41px;
       margin-top: 10px;
       margin-left: 40px;
       color: White;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
       background-color: rgb(183, 18, 52);
 }
 

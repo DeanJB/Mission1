@@ -5,21 +5,23 @@ import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutl
 
 function HeroCarousel() {
       return (
-            <div className={styles.carouselContainer}>
-                  {/* <button className={styles.buttonPrev}></button>
+            <div className={styles.wrappedContainer}>
+                  <div className={styles.carouselContainer}>
+                        {/* <button className={styles.buttonPrev}></button>
                   <button className={styles.buttonNext}></button> */}
-                  <button>
-                        <ArrowBackIosNewOutlinedIcon />
-                  </button>
-                  <div className={styles.imageSlide}>
-                        <img src="src\assets\test.jpg"></img>
-                  </div>
-                  <div className={styles.imageSlide}>{/* <img src="src\assets\test2.jpg"></img> */}</div>
-                  <div className={styles.imageSlide}>{/* <img src="src\assets\test3.jpg"></img> */}</div>
+                        <button>
+                              <ArrowBackIosNewOutlinedIcon />
+                        </button>
+                        <div className={styles.imageSlide}>
+                              <img src="src\assets\test.jpg"></img>
+                        </div>
+                        <div className={styles.imageSlide}>{/* <img src="src\assets\test2.jpg"></img> */}</div>
+                        <div className={styles.imageSlide}>{/* <img src="src\assets\test3.jpg"></img> */}</div>
 
-                  <button>
-                        <ArrowForwardIosOutlinedIcon />
-                  </button>
+                        <button>
+                              <ArrowForwardIosOutlinedIcon />
+                        </button>
+                  </div>
             </div>
       );
 }

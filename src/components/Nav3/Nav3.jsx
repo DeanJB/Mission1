@@ -24,7 +24,7 @@ function Nav3() {
       }, []);
 
       return (
-            // Input + button rendered when scrn size = 1024px
+            // Input + button rendered when scrn size <= 1024px
             <div className={styles.navContainer}>
                   {isMobile ? (
                         <div className={styles.searchContainer}>
