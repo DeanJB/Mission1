@@ -22,6 +22,19 @@ function HeroCarousel() {
                               <ArrowForwardIosOutlinedIcon />
                         </button>
                   </div>
+                  <div className={styles.textContainer}>
+                        <div className={styles.text}>
+                              <h1>1000's of Quality Cars for Sale - 20 Locations Nationwide</h1>
+
+                              <p>
+                                    Turners Cars is the largest used car network in New Zealand with 20 car dealer
+                                    locations nationwide. With a huge range of around 3,000 cars for sale (and another
+                                    1,500 being prepared for sale at any one time) there is truly something for
+                                    everyone. We’ve been helping Kiwis buy and sell used cars for almost 60 years. And
+                                    if you want car finance or car insurance, we can sort that out for you as well.
+                              </p>
+                        </div>
+                  </div>
             </div>
       );
 }

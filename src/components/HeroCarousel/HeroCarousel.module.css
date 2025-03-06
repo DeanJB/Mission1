@@ -7,7 +7,7 @@
       margin: 0 auto;
       background-color: rgb(255, 255, 255);
       position: relative;
-      border: 1px solid black;
+      /* border: 1px solid black; */
 }
 
 .imageSlide img {
@@ -22,6 +22,33 @@
 .imageSlide {
       opacity: 1;
 }
+
+.textContainer {
+      display: flex;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 300px;
+      width: 1400px;
+      margin-left: 20px;
+      margin: 0 auto;
+}
+
+.text {
+      text-align: center;
+      max-width: 800px;
+}
+
+text p {
+      font-size: 12px;
+      line-height: 1.5;
+}
+
+text h1 {
+      font-size: 20px;
+}
+
 .carouselContainer button {
       z-index: 1;
       background: rgba(0, 0, 0, 0.01);
@@ -40,7 +67,8 @@
       .carouselContainer {
             display: flex;
             width: 1000px;
-            height: 180px;
+            height: 200px;
+            background-color: rgb(255, 255, 255);
       }
       .imageSlide img {
             position: absolute;
@@ -49,26 +77,48 @@
             inset: 0;
             opacity: 1;
       }
+      .textContainer {
+            width: 1000px;
+            height: 200px;
+      }
+      .text {
+            width: 870px;
+      }
+      .text p {
+            font-size: 12px;
+            line-height: 1.5;
+      }
+
+      .text h1 {
+            font-size: 20px;
+      }
 }
 @media (max-width: 1024px) {
       .carouselContainer {
             display: flex;
             width: 800px;
-            height: 170px;
+            height: 190px;
       }
       .imageSlide img {
             position: absolute;
             width: 800px;
             height: 170px;
+            margin-top: 10px;
             inset: 0;
             opacity: 1;
+      }
+      .textContainer {
+            width: 800px;
+      }
+      .text {
+            width: 670px;
       }
 }
 @media (max-width: 846px) {
       .carouselContainer {
             display: flex;
             width: 600px;
-            height: 170px;
+            height: 190px;
       }
       .imageSlide img {
             position: absolute;
@@ -76,6 +126,12 @@
             height: 170px;
             inset: 0;
             opacity: 1;
+      }
+      .textContainer {
+            width: 600px;
+      }
+      .text {
+            width: 470px;
       }
 }
 
@@ -83,7 +139,7 @@
       .carouselContainer {
             display: flex;
             width: 500px;
-            height: 160px;
+            height: 180px;
       }
       .imageSlide img {
             position: absolute;
@@ -91,5 +147,11 @@
             height: 160px;
             inset: 0;
             opacity: 1;
+      }
+      .textContainer {
+            width: 500px;
+      }
+      .text {
+            width: 370px;
       }
 }

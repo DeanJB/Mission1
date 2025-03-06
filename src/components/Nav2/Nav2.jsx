@@ -33,7 +33,7 @@ function Nav2() {
                               <PhoneIcon />
                               <SearchIcon />
                         </div>
-                        {isMobile2 && (
+                        {/* {isMobile2 && (
                               <div
                                     className={`${styles.hamMenu} ${menuOpen ? styles.active : ""} `}
                                     onClick={toggleMenu}
@@ -41,10 +41,8 @@ function Nav2() {
                                     <div className={styles.sideBar}></div>
                                     <div className={styles.sideBar}></div>
                                     <div className={styles.sideBar}></div>
-                                    <div className={styles.sideBar}></div>
-                                    <div className={styles.sideBar}></div>
                               </div>
-                        )}
+                        )} */}
 
                         <div className={styles.navRight}>
                               <PersonIcon sx={{ "&:hover": { color: "#d50000" } }} />

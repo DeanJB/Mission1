@@ -27,7 +27,7 @@ body {
       display: flex;
       place-items: center;
       min-width: 320px;
-      background-color: rgb(250, 143, 143);
+      background-color: rgb(238, 238, 238);
       /* min-height: 100vh; */
 }
 
