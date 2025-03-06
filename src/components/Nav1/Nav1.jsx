@@ -1,10 +1,12 @@
+// Imports
 import React from "react";
 import styles from "./Nav1.module.css";
 
 function Nav1() {
       return (
+            // Nav Container + text
             <div className={styles.navContainer}>
-                  <div className={styles.buttonText}>
+                  <div className={styles.text}>
                         <h1>Cars</h1>
                         <span>|</span>
                         <h1>Trucks & Machinery</h1>
