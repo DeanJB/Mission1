@@ -13,7 +13,6 @@ function CustomVisionAI() {
             setImageFile(e.target.files[0]);
       };
 
-      //API
       const handleUpload = async () => {
             if (!imageFile) return alert("Please select an image");
 
