@@ -13,7 +13,7 @@ function HeroCarousel() {
                               <ArrowBackIosNewOutlinedIcon />
                         </button>
                         <div className={styles.imageSlide}>
-                              <img src="src\assets\test.jpg"></img>
+                              <img src="src\assets\car.jpg"></img>
                         </div>
                         <div className={styles.imageSlide}>{/* <img src="src\assets\test2.jpg"></img> */}</div>
                         <div className={styles.imageSlide}>{/* <img src="src\assets\test3.jpg"></img> */}</div>
