@@ -1,3 +1,4 @@
+/* All containers wrapped*/
 .navWrapper {
       /* max-width: 1920px; */
       width: 100vw;
@@ -7,7 +8,7 @@
       justify-content: center;
       align-items: center;
 }
-
+/* Main containers wrapped */
 .navContainer {
       max-width: 1200px;
       width: 100%;
@@ -20,7 +21,7 @@
       gap: 20px;
       background-color: #ffffff;
 }
-
+/* Logo */
 .navLeft img {
       height: 40px;
       width: 230px;
@@ -28,7 +29,7 @@
       margin-top: 20px;
       cursor: pointer;
 }
-
+/* Right section for MUI icon + text*/
 .navRight {
       display: flex;
       justify-content: space-evenly;
@@ -65,16 +66,16 @@
       border-radius: 5px;
       transition: all 0.3s ease-in-out;
 }
-
+/* styling login + register text */
 .textHighlightL {
       color: rgb(0, 115, 207);
 }
-
+/* hover effect for login + register*/
 .textHighlightL:hover,
 .textHighlight:hover {
       color: #d50000;
 }
-
+/* Media queries*/
 @media (max-width: 1024px) {
       .hamMenu {
             display: flex;
